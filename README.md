@@ -14,7 +14,7 @@ The backend is written in Python and relies on NumPy for numerical calculations 
 
 ## Frontend and User Flow
 
-Streamlit provides the entire user interface, including input widgets for date of birth, buttons to trigger calculations, and sections to display cards and charts of the computed asset allocation. Once the user enters a valid date of birth, the app calculates age in real time, applies the allocation logic, and renders interactive Plotly visualizations and summary tables.
+Streamlit provides the entire user interface, including input widgets for date of birth, buttons to trigger calculations, and sections to display cards and charts of the computed asset allocation. Once the user enters a valid date of birth, the app calculates age in real time, applies the allocation logic, and renders interactive Plotly visualizations and summary cards.
 
 ## Intended Use and Limitations
 
