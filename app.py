@@ -418,7 +418,7 @@ with col1:
     )
     
     st.markdown('<div style="height: 12px;"></div>', unsafe_allow_html=True)
-    get_it = st.button(' Calculate My Allocation', use_container_width=True)
+    get_it = st.button(' Get My Allocation', use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Calculate allocation
@@ -508,8 +508,9 @@ with col2:
         st.markdown(
             '<div class="result-card">'
             '<div class="placeholder-text">'
-            '👈 **Enter your Date of Birth** and click **Calculate My Allocation** to instantly see your personalized portfolio split.'
+            '👈 Enter your Date of Birth and click Get My Allocation to instantly see your personalized portfolio split.'
             '</div>'
             '</div>',
             unsafe_allow_html=True
+
         )
