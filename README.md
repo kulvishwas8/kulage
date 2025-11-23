@@ -6,7 +6,7 @@ This application is an age-based asset allocation tool that calculates investmen
 This project helps users quickly derive a suggested asset mix based on their current age, following the common principle that risk exposure should decrease as age increases. The core output is a set of age-dependent allocation percentages (for example, equity vs. debt) visualized and served through a Streamlit app.
 ## Core Logic
 
-The only required input is the user’s date of birth, from which the current age is computed using today’s date, capped at a maximum of 85 years for allocation purposes. The allocation logic is age-based and  follow simple heuristics such as “rule of 100” style formulaswith modification where the equity proportion is derived from age and the remainder is assigned to lower-risk assets.
+The only required input is the user’s date of birth, from which the current age is computed using today’s date, capped at a maximum of 85 years for allocation purposes. The allocation logic is age-based and  follow simple heuristics such as “rule of 100” style formulas with modification where the equity proportion is derived from age and the remainder is assigned to lower-risk assets.
 
 ## Technology Stack
 
