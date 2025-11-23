@@ -1,5 +1,6 @@
 streamlit
-plotly.graph_objects
+plotly
 numpy
 pandas
+
 
